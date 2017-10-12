@@ -59,3 +59,8 @@ function process_text(text) {
         }
     }
 }
+
+function handle_click() {
+    var element = document.getElementById("render_text");
+    process_text(element.value);
+}
